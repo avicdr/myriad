@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  --btn-secondary: #eb94a1;
+  --bg-secondary: #F4FCED;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.category-article-box-height{min-height: 175px;max-height: 175px;}
+.category-post-box-height{min-height: 170px;max-height: 170px;}
+
+.social-home-box-height .media-wall-card{min-height: 310px;max-height: 310px;}
+
+.social-page-box-height .media-wall-card{min-height: 447px;max-height: 447px;}
+.social-page-box-height .title { max-height: 60px; min-height: 60px; overflow: hidden;}
+
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.cursor-pointer:hover{
+  border: 1px solid blue;
+  border-radius:4px;
+}
+
+
+.card-head {
+  background-color: var(--bg-secondary);
+  padding: 10px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+
+
+.active-btn{
+  background-color: #0192ef !important;
+  color:white !important;
+}
+
+.justify-content-center{
+  justify-content: end !important;
+}
